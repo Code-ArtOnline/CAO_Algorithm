@@ -1,11 +1,6 @@
-
-
+<div align="center">
   
 ![header](https://capsule-render.vercel.app/api?text=Code%20Art%20Online&type=venom&height=500&desc=구름톤%20트레이닝%20풀스택%206회차)
-  
-
-
-<div align="center">
 
 [<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Notion-logo.svg/200px-Notion-logo.svg.png' alt='website' height='40'>](https://www.notion.so/CAO-76e456f730a843afa0340094f53221d8) 
 
