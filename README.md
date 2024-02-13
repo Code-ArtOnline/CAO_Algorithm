@@ -20,4 +20,10 @@
 
 <br>
 
+<div align="center">
+  
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=leesoeun2746)](https://solved.ac/leesoeun2746/)
+[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=eunjin4671)](https://solved.ac/eunjin4671/) 
+[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=chanlee1007)](https://mazassumnida.wtf/api/v2/generate_badge?boj=chanlee1007)
+
+</div>
