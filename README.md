@@ -8,8 +8,9 @@
   
  </div>
  
-<h2 align="center">🔻 구성원</h2>
 <div align="center">
+  
+ ![header](https://capsule-render.vercel.app/api?type=soft&color=auto&height=60&section=header&text=구성원&fontSize=30)
   
 |이름|언어|이메일|Blog|Github|
 |:---:|:---:|:---:|:---:|:---:|
@@ -20,8 +21,11 @@
 |이이삭|![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)|dldltkr970@gmail.com|[toastlee's notion](https://toastlee.notion.site/toastlee/bee2045ba81043c58175118eb9921074)|[ToastLee](https://github.com/ToastLee)|
 |이 찬|<img src="https://img.shields.io/badge/javascript-%23F7DF1E.svg?&style=for-the-badge&logo=javascript&logoColor=black" />|chanlee1007@naver.com|[lc02s's notion](https://www.notion.so/lc02s/6-e6a3a616f3624eaca4367ab9b9cb9f42?pvs=4)|[LC-02s](https://github.com/LC-02s)|
 </div>
-<h2 align="center"> 📍 Commit 규칙 </h2>
+<br>
 <div align="center">
+
+ ![header](https://capsule-render.vercel.app/api?type=soft&color=auto&height=60&section=header&text=Commit%20규칙&fontSize=30)
+ 
 ✅ 커밋 메시지 형식 : 회차 / 이름 / 주제 <br>
 ✅ 예) 1회차 / 이구름 / 구현
 </div>
@@ -29,6 +33,8 @@
 <br>
 
 <div align="center">
+
+ ![header](https://capsule-render.vercel.app/api?type=soft&color=auto&height=60&section=header&text=Solved.ac&fontSize=30)
   
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=leesoeun2746)](https://solved.ac/leesoeun2746/)
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=eunjin4671)](https://solved.ac/eunjin4671/) 
