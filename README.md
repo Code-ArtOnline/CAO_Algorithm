@@ -13,8 +13,19 @@
   
  ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) <img src="https://img.shields.io/badge/python-%233776AB.svg?&style=for-the-badge&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/javascript-%23F7DF1E.svg?&style=for-the-badge&logo=javascript&logoColor=black" />
  </div>
-
-<h2 align="center"> 📍 Commit Rules </h2>
+<h2 align="center">🔻 구성원</h2>
+<div align="center">
+  
+|이름|언어|이메일|Blog|Github|
+|:---:|:---:|:---:|:---:|:---:|
+|이혜린|C++|12qwpo50@gmail.com||[hyeyoooo](https://github.com/hyeyoooo)|
+|박은진|C++|eunjin4671@naver.com|[@is_zzin's velog](https://velog.io/@is_zzin/posts)|[github.com/potatoj1n](https://github.com/potatoj1n)|
+|백지원|Python|wldnjsl2001@gmail.com||[qorjiwon](https://github.com/qorjiwon)|
+|이소은|Java|leesoeun2746@naver.com|[saokiritoni's velog](https://velog.io/@saokiritoni/posts)|[saokiritoni](https://github.com/saokiritoni)|
+|이이삭|Java|dldltkr970@gmail.com|[toastlee's notion](https://toastlee.notion.site/toastlee/bee2045ba81043c58175118eb9921074)|[ToastLee](https://github.com/ToastLee)|
+|이 찬|Javascript|chanlee1007@naver.com|[lc02s's notion](https://www.notion.so/lc02s/6-e6a3a616f3624eaca4367ab9b9cb9f42?pvs=4)|[LC-02s](https://github.com/LC-02s)|
+</div>
+<h2 align="center"> 📍 Commit 규칙 </h2>
 <div align="center">
 ✅ 커밋 메시지 형식 : 회차 / 이름 / 주제 <br>
 ✅ 예) 1회차 / 이구름 / 구현
