@@ -1,7 +1,9 @@
-<h1 align="center"> Code Art Onilne </h1>
-<div align="center"> 구름톤 트레이닝 풀스택 6회차 CAO조의 알고리즘 레포지토리입니다. <br>
+
+
   
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FCode-ArtOnline%2FCAO_Algorithm&count_bg=%23FCB0FF&title_bg=%237CB3EF&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+![header](https://capsule-render.vercel.app/api?text=Code%20Art%20Online&type=venom&height=500&desc=구름톤%20트레이닝%20풀스택%206회차)
+  
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FCode-ArtOnline%2FCAO_Algorithm&count_bg=%23FCB0FF&title_bg=%237CB3EF&icon=&icon_color=auto&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 </div>
 
 <h2 align="center"> 👩🏻‍💻 Languages</h2>
