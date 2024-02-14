@@ -1,11 +1,11 @@
 natural_num = set(range(1,10001))
 generated_num = set()
 
-for num in sorted(natural_num):
+for num in range(1,10000):
     
     n = num
     
-    while n <= 10000:
+    while n < 10000:
         for i in str(n):
             n += int(i)
         generated_num.add(n)
