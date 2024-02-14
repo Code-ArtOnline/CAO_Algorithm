@@ -24,7 +24,7 @@
 <br>
 <div align="center">
 
- ![header](https://capsule-render.vercel.app/api?type=soft&color=auto&height=60&section=header&text=Commit%20규칙&fontSize=30)
+ ![header](https://capsule-render.vercel.app/api?type=soft&color=auto&height=60&section=header&text=PR%20규칙&fontSize=30)
  
 ✅ PR title : 회차 / 이름 / 주제 <br>
 ✅ 예) 1회차 / 이구름 / 구현
