@@ -36,8 +36,8 @@
 
  ![header](https://capsule-render.vercel.app/api?type=soft&color=auto&height=60&section=header&text=Solved.ac&fontSize=30)
   
-[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=leesoeun2746)](https://solved.ac/leesoeun2746/)
-[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=eunjin4671)](https://solved.ac/eunjin4671/) 
-[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=chanlee1007)](https://solved.ac/chanlee1007/)
+[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=leesoeun2746)](https://solved.ac/profile/leesoeun2746/)
+[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=eunjin4671)](https://solved.ac/profile/eunjin4671/) 
+[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=chanlee1007)](https://solved.ac/profile/chanlee1007/)
 
 </div>
