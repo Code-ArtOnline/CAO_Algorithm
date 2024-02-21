@@ -1,11 +1,11 @@
 import sys
+input = sys.stdin.readline
 
-n, m = map(int, sys.stdin.readline().split())
+n, m = map(int, input().split())
 
 # 수열 저장
-arr = []
-for _ in range(n):
-    arr.append(int(sys.stdin.readline()))
+arr = [int(input()) for _ in range(n)]
+
 # 수열 오름차순 정렬
 arr.sort()
 
