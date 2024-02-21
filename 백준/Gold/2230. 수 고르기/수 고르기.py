@@ -3,10 +3,7 @@ input = sys.stdin.readline
 
 n, m = map(int, input().split())
 
-# 수열 저장
 arr = [int(input()) for _ in range(n)]
-
-# 수열 오름차순 정렬
 arr.sort()
 
 # 투 포인터 시작 인덱스
