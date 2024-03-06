@@ -18,12 +18,12 @@ int main(){
     
     while(min <= max){
         long long mid = (min + max) / 2;
-        long long total = 0;
+        long long sum = 0;
         for(int i=0; i < L.size(); i++){
             if(L[i] >= mid) 
-                total += L[i] / mid;
+                sum += L[i] / mid;
         }
-        if(total >= C){
+        if(sum >= C){
             maxPa = mid;
             min = mid + 1;
         }
