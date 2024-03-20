@@ -3,7 +3,6 @@ const input = require('fs').readFileSync(0, 'utf-8')
 const [ n, m ] = input;
 
 const intArr = Array.from({ length: n }, (_, i) => i + 1);
-const visited = new Array(n).fill(false);
 const selected = [];
 
 const answer = [];
@@ -15,10 +14,8 @@ const dfs = (arr, depth) => {
     }
     for (let i = 0; i < arr.length; i += 1) {
         selected.push(i);
-        visited[i] = true;
         dfs(arr, depth + 1);
         selected.pop();
-        visited[i] = false;
     }
 }
 dfs(intArr, 0);
