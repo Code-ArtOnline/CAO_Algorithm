@@ -1,31 +1,28 @@
-const fs = require("fs");
-const filePath = process.platform === "linux" ? "/dev/stdin" : "input.txt";
-let input = fs.readFileSync(filePath).toString().trim().split("\n");
+const input = require('fs').readFileSync(0, 'utf-8').toString().trim().split('\n');
+const [ r, c ] = input[0].split(' ').map(Number);
+const alphabets = new Array(r);
+for (let i = 1; i <= r; i += 1) alphabets[i - 1] = input[i].trim();
 
-let [R, C] = input[0].split(" ").map(Number);
-let board = new Array(R);
-for (let i = 0; i < board.length; i++) {
-  board[i] = input[i + 1].trim().split("");
-}
-let visit = new Array(26).fill(false); 
-let ans = 0;
-let dx = [0, 0, 1, -1];
-let dy = [1, -1, 0, 0];
+const dx = [ -1, 1,  0, 0 ];
+const dy = [  0, 0, -1, 1 ];
+const visited = new Array(26).fill(false);
 
-function DFS(x, y, cnt) {
-  ans = Math.max(ans, cnt);
-  for (let i = 0; i < 4; i++) {
-    let nx = x + dx[i];
-    let ny = y + dy[i];
-    if (nx >= 0 && ny >= 0 && nx < R && ny < C) {
-      if (visit[board[nx][ny].charCodeAt() - 65] === false) {
-        visit[board[nx][ny].charCodeAt() - 65] = true;
-        DFS(nx, ny, cnt + 1);
-        visit[board[nx][ny].charCodeAt() - 65] = false;
-      }
+let maxDepth = 0;
+function dfs(depth, x, y) {
+    maxDepth = Math.max(maxDepth, depth);
+    for (let i = 0; i < 4; i += 1) {
+        const nx = x + dx[i];
+        const ny = y + dy[i];
+        if (nx < 0 || nx >= r || ny < 0 || ny >= c) continue;
+        if (!visited[alphabets[nx][ny].charCodeAt() - 65]) {
+            visited[alphabets[nx][ny].charCodeAt() - 65] = true;
+            dfs(depth + 1, nx, ny);
+            visited[alphabets[nx][ny].charCodeAt() - 65] = false;
+        }
     }
-  }
 }
-visit[board[0][0].charCodeAt() - 65] = true;
-DFS(0, 0, 1);
-console.log(ans);
+
+visited[alphabets[0][0].charCodeAt() - 65] = true;
+dfs(1, 0, 0);
+
+console.log(maxDepth);
