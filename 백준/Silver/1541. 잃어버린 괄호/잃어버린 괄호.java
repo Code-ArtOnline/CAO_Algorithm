@@ -1,40 +1,46 @@
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-
-/*
-2024.3.11
-silver 2
-백준 1541: 잃어버린 괄호
- */
+import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        String input = br.readLine();
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String expression = scanner.nextLine();
+        scanner.close();
 
-        // '-'를 기준으로 입력 문자열 분리
-        String[] subPart = input.split("-");
+        int answer = calculateMinValue(expression);
+        System.out.println(answer);
+    }
 
-        int result = 0; // 결과값
+    private static int calculateMinValue(String expression) {
+        int minValue = 0;
+        int temp = 0;
+        boolean subtract = false;
 
-        for (int i = 0; i < subPart.length; i++) {
-            int tempSum = 0;
+        for (int i = 0; i < expression.length(); i++) {
+            char c = expression.charAt(i);
 
-            // '+' 연산 처리
-            String[] addPart = subPart[i].split("\\+");
-            for (String num : addPart) {
-                tempSum += Integer.parseInt(num);
-            }
-
-            // 첫 번째 부분 문자열에 대해서는 결과값에 더하고, 그 외에는 결과값에서 뺌
-            if (i == 0) {
-                result += tempSum;
+            if (Character.isDigit(c)) {
+                temp = temp * 10 + (c - '0');
             } else {
-                result -= tempSum;
+                if (subtract) {
+                    minValue -= temp;
+                } else {
+                    minValue += temp;
+                }
+
+                temp = 0;
+
+                if (c == '-') {
+                    subtract = true;
+                }
             }
         }
 
-        System.out.println(result); 
+        if (subtract) {
+            minValue -= temp;
+        } else {
+            minValue += temp;
+        }
+
+        return minValue;
     }
 }
